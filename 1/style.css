@@ -7,3 +7,11 @@ body{
 a{
     color: brown;
 }
+/*h1樣式*/
+h1{
+    padding:  30px;
+    margin: 40px;
+    border: 5px solid rgb(167, 211, 197);
+    background-color: rgb(91, 240, 190);
+    color: rgb(240, 240, 240);
+}
