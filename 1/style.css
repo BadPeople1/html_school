@@ -1,3 +1,9 @@
+/*背景顏色*/
 body{
     background-color: antiquewhite;
+    
+}
+/*連結顏色*/
+a{
+    color: brown;
 }
