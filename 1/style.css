@@ -35,6 +35,10 @@ h2{
     background-color: white;
 }
 
+#content span{
+    background-color:gainsboro ;
+}
+
 .h{
     margin: auto 40px;
     text-align: end;
