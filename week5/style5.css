@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(233, 191, 191);
+}
+
+section + section{
+    background-color: rgb(185, 255, 255);
+}
+#contents > section + section{
+    width: 300px;
+    padding: 30px;
+    margin: 40px auto;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 0.1;
+}
