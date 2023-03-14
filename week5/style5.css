@@ -5,11 +5,38 @@ body{
 section + section{
     background-color: rgb(185, 255, 255);
 }
+
+#top{
+    border: 1px solid white;
+}
 #contents > section + section{
-    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    margin: 40px auto;
+    background-color: beige;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+#head1{
+    border: 1px solid black;
+    border-top: 10px solid black;
     padding: 30px;
     margin: 40px auto;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 0.1;
+    width: 300px;
+    background-color: blanchedalmond;
+}
+
+a:hover{
+    color: #fafffd;
+    text-decoration: solid;
+}
+
+a::after{
+    content: url(./1.png);
+    margin-left: 3px;
+    vertical-align: middle; 
 }
