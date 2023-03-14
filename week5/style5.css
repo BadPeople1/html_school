@@ -31,12 +31,25 @@ h1,h2{
 }
 
 a:hover{
-    color: #fafffd;
-    text-decoration: solid;
+    color: #e4af72;
+    text-decoration: none;
 }
 
 a::after{
     content: url(./1.png);
     margin-left: 3px;
     vertical-align: middle; 
+} 
+
+a[href^="https://github.com/"]::after{
+    content: url(./blank.png);
+    margin-left: 3px;
+    vertical-align: middle; 
+}
+
+a[href^="mailto"]::after {
+    content: url(./email.png);
+    margin-left: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
 }
