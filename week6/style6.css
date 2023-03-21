@@ -42,6 +42,17 @@ body{
     text-align: center;
 }
 
+.meun li{
+    list-style:none;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: auto;
+}
+
 .multi-bg{
     margin: auto 500px;
     padding: 100px;
