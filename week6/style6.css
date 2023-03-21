@@ -1,5 +1,26 @@
 body{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite;
+    background-image: url(./img/bg.png);
+    background-repeat: repeat-x; */
+    background: antiquewhite url(./img/bg.png) repeat-x;
+    
+}
+
+#title{
+    /* background-color: green; */
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin: 10px auto ;
+    padding-top: 50px;
+    border-radius: 50%;
+    color: white;
+    border: 5px solid lightgreen;
+    text-shadow: 5px 5px 5px black;
+    box-shadow: 1PX 1px 5px black;
+    background-image: linear-gradient(to bottom,lightgreen,darkgreen);
+    font-family: 'Fasthand', cursive;
+
 }
 
 #top{
@@ -11,8 +32,7 @@ body{
 }
 
 .BackGround{
-    width: 400px;
-    margin: auto 650px;
+    margin: auto 500px;
     padding: 100px;
     background:
     url(./img/bg.png) top left no-repeat,
@@ -20,4 +40,16 @@ body{
     url(./img/bg.png) bottom left no-repeat,
     url(./img/bg.png) bottom right no-repeat;
     text-align: center;
+}
+
+.multi-bg{
+    margin: auto 500px;
+    padding: 100px;
+    background:
+    url(./img/flower.jpg) no-repeat,
+    url(./img/sea_background.png) no-repeat;
+}
+
+a:hover{
+    text-decoration: none;
 }
