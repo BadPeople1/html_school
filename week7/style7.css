@@ -1,0 +1,60 @@
+body{
+    background: 
+    url(./img/bg.png) top left repeat-x,
+    url(./img/bg.png) bottom left repeat-y;
+    background-color: antiquewhite;
+    background-size: 80px auto;
+}
+
+#contents{
+    width: 798px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.imgL{
+    width: 350px;
+    float:left;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    margin: auto ;
+    padding-top: 40px;
+    border-radius: 50%;
+    color: black;
+
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: antiquewhite;
+    display: block;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: lightyellow;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100px;
+    margin: 40px 20px;
+    text-align: center;
+}
