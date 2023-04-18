@@ -18,7 +18,7 @@
 
         <section>
 
-           <form>
+           <form class="data">
                 <table border="1">
                     <caption>貓咪資料</caption>
                         <tr>
@@ -28,8 +28,9 @@
                         <tr>
                             <th>年齡</th>
                             <td>
-                                <select name="age" id="">
-                                    <option value="1" selected>1</option>
+                                <select name="age" id="" required>
+                                    <option value="1" selected>請選擇</option>
+                                    <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
                                     <option value="4">4</option>
@@ -44,12 +45,16 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>興趣</th>
+                            <th>喜愛的食物</th>
                             <td>
                                 <input type="checkbox" name="" id="">貓飼料
                                 <input type="checkbox" name="" id="">貓罐頭
                                 <input type="checkbox" name="" id="">水煮輕食
                             </td>
+                        </tr>
+                        <tr>
+                            <th>照片</th>
+                            <td><input type="file" name="file" id=""></td>
                         </tr>
                 </table>
 
