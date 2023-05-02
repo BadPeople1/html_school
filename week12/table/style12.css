@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+
+header{
+    margin: 20px 20px;
+    padding: 50px 50px;
+    text-align: center;
+    border: 2.5px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+#title{
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.data{
+    border: 1px solid black;
+    margin: 20px;
+}
